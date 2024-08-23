@@ -10,8 +10,18 @@
 
 <body onresize="ajustaTamanhoPalcoJogo()">
 
+    <div class="painel">
+        <div class="vidas">
+            <img src="imagens/coracao_vazio.png" alt="coracao_vazio">
+        </div>
+
+        <div class="cronometro">Tempo Restante: ?</div>
+    </div>
+
     <script>
-        posicaoRandomica()
+        setInterval(function () {
+            posicaoRandomica()
+        }, 1000)
     </script>
 </body>
 
