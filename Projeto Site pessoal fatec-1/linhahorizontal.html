@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha Horizontal</title>
+
+    <style>
+        .text {
+            padding: 5px;
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            padding: 0px;
+            background-color: rgba(0, 0, 0, 0.100);
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+            color: black;
+            background-color: rgba(0, 0, 0, 0.123);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            margin: 7px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body background="imagens/fundo.jpg">
+
+    <table border="0" width="960px" heigth="260px" align="center">
+
+        <tr>
+            <td><img src="imagens/linhahorizontal.jpg" alt=""></td>
+        </tr>
+    </table>
+
+    <p align="center">
+        <a href="estrutura.html">Estrutura Básicas HTML</a>
+        <a href="paragrafos.html">Parágrafos</a>
+        <a href="cabecalhos.html">Cabeçalhos</a>
+        <a href="linhahorizontal.html">Linha Horizontal</a>
+        <a href="listas.html">Listas</a>
+        <a href="tabelas.html">Tabelas</a>
+
+    </p>
+
+    <p align="center" style="line-height:50px;">
+        <a href="formularios.html">Formulários</a>
+        <a href="imagens.html">Imagens</a>
+        <a href="video-e-audio.html">Video e Audio</a>
+        <a href="links.html">Links</a>
+    </p>
+
+    <div class="container">
+
+        <p class=" text" style="padding: 10px;">
+
+        <h2 style="margin: 25px;">Linha Horizontal</h2>
+
+
+        <p style="margin: 25px;">
+
+
+            Há muitas maneiras de se desenhar um separador
+            horizontal em HTML e CSS. O jeito certo vai
+            depender de cada caso. Neste artigo eu vou te
+            explicar as principais formas.
+            Em geral, a tag HTML hr (horizontal rule) é uma tag
+            semântica que serve para criar uma linha horizontal,
+            separando elementos horizontalmente. Porém a tag hr
+            não é ideal para separar elementos em listas li,
+            por exemplo. Neste caso, devemos utilizar CSS.
+        </p>
+
+        <hr>
+        
+        <h2 style="margin: 25px;">Linha horizontal com &lt;hr&gt;</h2>
+
+        <p style="margin: 25px;">
+            A tag <a<code>&lt;hr&gt;</code></a> (horizontal rule) é um elemento HTML ideal
+                para separação entre parágrafos e blocos de conteúdo. Você pode até
+                usar outro método para separar o conteúdo visualmente, mas estaria
+                perdendo a função semântica da tag <a<code>&lt;hr&gt;</code></a>.
+
+                    Na versão HTML5, a tag passou a não ser apenas uma linha
+                    visual, mas passou a ser uma tag semântica, ou seja, a
+                    função dessa tag agora também serve para que os mecanismos
+                    de busca entendam que quando a tag está presente, ela
+                    denota uma separação de conteúdo, e por isso é importante
+                    que seja usada nos lugares certos.
+        </p>
+
+    </div>
+
+
+</body>
+
+</html>

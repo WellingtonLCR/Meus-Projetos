@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        .text {
+            padding: 1px;
+
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.100);
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+            color: black;
+            background-color: rgba(0, 0, 0, 0.123);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            margin: 7px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            background-color: #96D4D4;
+        }
+    </style>
+</head>
+
+<body background="imagens/fundo.jpg">
+
+    <table border="0" width="960px" heigth="260px" align="center">
+
+        <tr>
+            <td><img src="imagens/tabelas.jpg" alt=""></td>
+        </tr>
+    </table>
+
+    <p align="center">
+        <a href="estrutura.html">Estrutura Básicas HTML</a>
+        <a href="paragrafos.html">Parágrafos</a>
+        <a href="cabecalhos.html">Cabeçalhos</a>
+        <a href="linhahorizontal.html">Linha Horizontal</a>
+        <a href="listas.html">Listas</a>
+        <a href="tabelas.html">Tabelas</a>
+
+    </p>
+
+    <p align="center" style="line-height:50px;">
+        <a href="formularios.html">Formulários</a>
+        <a href="imagens.html">Imagens</a>
+        <a href="video-e-audio.html">Video e Audio</a>
+        <a href="links.html">Links</a>
+    </p>
+
+    <div class="container">
+
+        <h2 style="margin: 25px;">Tabelas</h2>
+
+        <p style="margin: 25px;">
+            <strong>O que é uma tabela em HTML?</strong><br><br>
+            Uma tabela é uma representação de dados organizados
+            em linhas e colunas. Realmente, é mais como uma
+            planilha. Em HTML, com a ajuda de tabelas, você pode
+            organizar dados como imagens, texto, links e assim por
+            diante em linhas e colunas de células.
+
+            O uso de tabelas na web tornou-se mais popular recentemente
+            devido às incríveis tags de tabela HTML que tornam mais fácil
+            criá-las e projetá-las.
+
+            Para criar uma tabela em HTML você precisará usar tags.
+            O mais importante é a <a<code></code></a> tag que é o
+                container principal da tabela. Mostra onde a tabela começará e onde termina.
+        </p>
+
+        <p style="margin: 25px;">
+
+        <h2 style="margin: 25px;">Tags comuns de tabela HTML</h2>
+        <img style="margin: 25px;" src="imagens/tagstabela.jpg" alt="">
+        </p>
+
+        <h2 style="margin: 25px;">Exercícios 1</h2>
+
+        <table border="1" style="width:385px;">
+            <tbody>
+                <tr>
+                    <th colspan="4" align="center">Listas de Nomes</th>
+                </tr>
+
+                <tr>
+                    <th>Primeiro Nome</th>
+                    <th>Último Nome</th>
+                    <th>Pontos</th>
+                </tr>
+
+                <tr>
+                    <td>Jõao</td>
+                    <td>Souza</td>
+                    <td>50</td>
+                </tr>
+
+                <tr>
+                    <td>Ana</td>
+                    <td>Silva</td>
+                    <td>94</td>
+                </tr>
+
+                <tr>
+                    <td>Maria</td>
+                    <td>Duena</td>
+                    <td>80</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 style="margin: 25px;">Exercícios 2</h2>
+
+        <table width="385" border=1 style="border-collapse: collapse">
+
+            <th colspan="4" align="center" style="font-family:Arial, Helvetica, sans-serif">Notas finais de 2015</th>
+
+            <tr>
+                <th align="left" style="font-family:Arial, Helvetica, sans-serif">Nome</th>
+                <th align="left" style="font-family:Arial, Helvetica, sans-serif">NOTA 1</th>
+                <th align="left" style="font-family:Arial, Helvetica, sans-serif">NOTA 2</th>
+                <th align="left" style="font-family:Arial, Helvetica, sans-serif">Média</th>
+            </tr>
+
+            <tr>
+                <th align="left" style="font-family:Arial, Helvetica, sans-serif">João</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">8</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">7</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">7.5</th>
+            </tr>
+
+            <tr>
+                <th align="left" style="font-family:Arial, Helvetica, sans-serif">Maria</th>
+                <th align="center" style="font-family:Arial, Helvetica, sans-serif" colspan="2">6</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">6</th>
+            </tr>
+
+            <tr>
+                <th align="left" style="font-family:Arial, Helvetica, sans-serif">Ana</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">4</th>
+                <th align="center" style="font-family:Arial, Helvetica, sans-serif" rowspan="3">8</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">6</th>
+            </tr>
+
+            <tr>
+                <th align="left">Marcos</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">9</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">8.5</th>
+            </tr>
+
+            <tr>
+                <th align="left">Sebastião</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">0</th>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif">4</th>
+            </tr>
+        </table>
+
+        <h2 style="margin: 25px;">Exercícios 3</h2>
+
+        <table width="385" border=1 style="border-collapse: collapse">
+            <th colspan="4" align="center" style="font-family:Arial, Helvetica, sans-serif">Tabelas de Contas e Saldos
+            </th>
+            <tr>
+                <th align=align="center" style="font-family:Arial, Helvetica, sans-serif">Tipo de Despesa</th>
+                <th align="center" style="font-family:Arial, Helvetica, sans-serif">Descriçao</th>
+                <th align="center" style="font-family:Arial, Helvetica, sans-serif">Valor</th>
+            </tr>
+
+            <tr>
+                <th align="center" style="font-family:Arial, Helvetica, sans-serif" rowspan="5">Doméstica</th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">Compras
+                    do
+                    Mês</th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">$
+                    280,00
+                </th>
+            </tr>
+
+            <tr>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">Aluguel
+                </th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">$
+                    450,00
+                </th>
+            </tr>
+
+            <tr>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">Luz
+                </th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">$
+                    120,00
+                </th>
+            </tr>
+
+            <tr>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">água
+                </th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">$
+                    111,00
+                </th>
+            </tr>
+
+            <tr>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">
+                    Telefone
+                </th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">$ 90,00
+                </th>
+            </tr>
+
+            <tr>
+                <th align="center" style="font-family:Arial, Helvetica, sans-serif" rowspan="2">Externa</th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">
+                    Gasolina
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">$
+                    450,00
+            </tr>
+
+            <tr>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">Almoço
+                </th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">$
+                    200,00
+                </th>
+            </tr>
+
+            <tr>
+                <th align="right" style="font-family:Arial, Helvetica, sans-serif" colspan="2">Subtotal
+                </th>
+                <th align="left" style="font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 100;">$
+                    1.701,00
+                </th>
+            </tr>
+        </table>
+
+        <h2 style="margin: 25px;">Exercícios 4</h2>
+
+        <table style="width:40%">
+            <tr>
+                <th align="center" colspan="7">Tenho Medo de...</th>
+            </tr>
+
+            <tr>
+                <td align="left" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Escuro
+                </td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center"></td>
+            </tr>
+            <tr>
+                <td align="left" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Injeção
+                </td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center"></td>
+                <td align="center"></td>
+            </tr>
+            <tr>
+                <td align="left" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                    Fantasma
+                </td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center"></td>
+                <td align="center"></td>
+            </tr>
+
+            <tr>
+                <td align="left" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Altura
+                </td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center"></td>
+                <td align="center"></td>
+            </tr>
+
+            <tr>
+                <td align="left" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Barata
+                </td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center"></td>
+                <td align="center"></td>
+            </tr>
+
+            <tr>
+                <td align="left" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Zumbi
+                </td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center"></td>
+            </tr>
+
+            <tr>
+                <td align="left" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Cobra
+                </td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+                <td align="center">&#9785;</td>
+            </tr>
+        </table>
+
+        <h2 style="margin: 25px;">Exercícios 5</h2>
+
+        <p style="margin: 25px;"> Às vezes podemos ter a necessidade de que uma célula de uma tabela ocupe mais de uma
+            coluna ou linha da
+            mesma, para isso utilizamos os atributos COLSPAN e ROWSPAN nas células da tabela. Veremos nesse artigo como
+            utilizá-los através de alguns exemplos práticos.
+
+            Rowspan e colspan servem para expandir as células fazendo com que uma única célula ocupe mais de uma linha
+            ou mais de uma coluna.
+
+        </p>
+
+        <table style="width:40%">
+            <tr>
+                <th colspan="3">&nbsp;</th>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+
+        <table>
+
+            <table style="width:40%">
+
+                <tr>
+                    <th rowspan="3">&nbsp;</th>
+                    <th>&nbsp;</th>
+                    <th>&nbsp;</th>
+                </tr>
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <br>
+
+            </table>
+
+            <br>
+
+            <table style="width:40%">
+                <tr>
+                    <th colspan="5">&nbsp;</th>
+                </tr>
+
+                <tr>
+                    <td rowspan="4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td rowspan="2">&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">&nbsp;</td>
+                    <td></td>
+                </tr>
+                <br>
+
+            </table>
+        </table>
+    </div>
+</body>
+
+</html>

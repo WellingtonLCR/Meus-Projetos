@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <style>
+        .text {
+            padding: 1px;
+
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.100);
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+            color: black;
+            background-color: rgba(0, 0, 0, 0.123);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            margin: 7px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body background="imagens/fundo.jpg">
+
+    <table border="0" width="960px" heigth="260px" align="center">
+
+        <tr>
+            <td><img src="imagens/formularios.jpg" alt=""></td>
+        </tr>
+    </table>
+
+    <p align="center">
+        <a href="estrutura.html">Estrutura Básicas HTML</a>
+        <a href="paragrafos.html">Parágrafos</a>
+        <a href="cabecalhos.html">Cabeçalhos</a>
+        <a href="linhahorizontal.html">Linha Horizontal</a>
+        <a href="listas.html">Listas</a>
+        <a href="tabelas.html">Tabelas</a>
+    </p>
+
+    <p align="center" style="line-height:50px;">
+        <a href="formularios.html">Formulários</a>
+        <a href="imagens.html">Imagens</a>
+        <a href="video-e-audio.html">Video e Audio</a>
+        <a href="links.html">Links</a>
+    </p>
+
+    <div class="container">
+
+        <h2 style="margin: 25px;">Formulários</h2>
+
+        <p style="margin: 25px;">
+            O uso de formulário HTML (ou HTML form) é muito
+            frequente na web, é um dos principais pontos de
+            interação entre usuários e uma aplicação web.
+            Geralmente, eles funcionam enviando os dados
+            para um servidor, porém também podem ser utilizados
+            para alguma função na própria página.Portanto, entender
+            como utilizar um formulário HTML é muito importante, além
+            de lhe permitir criar diversas aplicações e funcionalidades diferentes.
+
+        <h2>Exemplos:</h2>
+
+        <h2>Login</h2>
+        <form>
+
+            Login:<br>
+            <input type="text" name="Login"><br>
+
+            Senha:<br>
+            <input type="password" name="Senha">
+            <br>
+            <input type="button" value="logar">
+        </form>
+
+        <form>
+
+            <h2>Cadastre-se</h2>
+            Login:<br>
+            <input type="text" name="Login"><br><br>
+
+            Sexo:<br>
+            <input type="radio" name="Sexo" value="Masculino">Masculino<br>
+            <input type="radio" name="Sexo" value="Feminino">Feminino<br><br>
+
+            Interesses<br>
+            <input type="checkbox" name="Interesses">Futebol<br>
+            <input type="checkbox" name="Interesses">Cursos<br>
+            <input type="checkbox" name="Interesses">Moda<br><br>
+
+            Estado<br>
+            <select name="estado">
+                <option value="SP">SP</option>
+                <option value="MG">MG</option>
+                <option value="RJ">RJ</option>
+                <option value="RS">RS</option>
+                <option value="GO">GO</option>
+            </select><br><br>
+
+            Observações: <br>
+            <textarea></textarea><br>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+
+        </p>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>

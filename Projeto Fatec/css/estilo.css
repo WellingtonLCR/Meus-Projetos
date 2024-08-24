@@ -1,0 +1,169 @@
+:root {
+    --colorprin: #000000;
+    --tomclaro: white;
+    --tommedio: #ccc;
+    --tomlog: #9146ff;
+  }
+  
+  body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+  }
+  
+  /* Layout */
+  #area-cabecalho {
+    background-color: var(--colorprin);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .sobre {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    line-height: 1.58;
+  }
+  
+  #area-logo,
+  #area-menu {
+    padding: 10px;
+    color: var(--tomclaro);
+  }
+  
+  #area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  #area-postagens {
+    width: 660px;
+    float: left;
+  }
+  
+  .postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: var(--tomclaro);
+  }
+  
+  #area-lateral {
+    width: 240px;
+    float: right;
+  }
+  
+  #rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: var(--tommedio);
+  }
+  
+  .conteudo-lateral {
+    padding: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+  }
+  
+  /* Formatações em geral */
+  h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    color: var(--colorprin);
+  }
+  
+  h3 {
+    color: #565656;
+    background: var(--tommedio);
+    padding: 5px;
+  }
+  
+  .log1 {
+    color: var(--tomclaro);
+  }
+  
+  .log2 {
+    color: var(--tomlog);
+  }
+  
+  /* Formatação do menu */
+  a {
+    text-decoration: none;
+  }
+  
+  a:link,
+  a:visited {
+    color: var(--colorprin);
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  #area-cabecalho a:link,
+  #area-cabecalho a:visited {
+    color: var(--tomclaro);
+    padding: 8px 12px;
+  }
+  
+  #area-cabecalho a:hover {
+    color: var(--colorprin);
+    background: var(--tomclaro);
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* Mapa do site */
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    position: relative;
+  }
+  
+  ul li a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    background: #fff;
+    padding: 5px;
+    border-bottom: 0;
+  }
+  
+  li:hover ul {
+    display: block;
+  }
+  
+  ul li a:hover {
+    font: 16px verdana;
+    font-weight: bold;
+    color: #e2144a;
+  }
+  
+  /* Ajuste do título (h1) e do form com */
+  /* Campo e-mail */
+  input[type="email"] {}
+  
+  /* Campo departamento */
+  select {}
+  
+  /* Definição dos grupos de opções */
+  optgroup {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Definição das opções de cada grupo de opções */
+  option {
+    background-color: white;
+  

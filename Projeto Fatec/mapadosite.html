@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapa do Site</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+  </head>
+
+  <body>
+    <div id="area-cabecalho">
+      <div id="area-logo">
+        <h1 class="log2">Mapa do<span class="log1">Site</span></h1>
+      </div>
+
+      <div id="area-menu">
+        <a href="index.html">Home</a>
+        <a href="curso.html">Curso S.I</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="alunossi.html">Alunos SI</a>
+        <a href="mapadosite.html">Mapa do Site</a>
+      </div>
+    </div>
+
+    <div id="area-principal">
+      <div id="area-postagens">
+        <div class="postagem">
+          <img width="620px" src="imagens/mapadosite.png" />
+          <br />
+          <nav>
+            <ul>
+              <li><h2>Home</h2></li>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="curso.html">Curso</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="alunossi.html">Alunos S.I</a></li>
+                <li><a href="mapadosite.html">Mapa do Site</a></li>
+              </ul>
+              <br />
+              <li><h2>Encontrar no Site</h2></li>
+              <ul>
+                <li><a href="mapadosite.html">Mapa do Site</a></li>
+              </ul>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div id="area-lateral">
+        <div id="area-lateral">
+          <div class="conteudo-lateral">
+            <h3>Categorias</h3>
+
+            <a href="">Fatec</a><br />
+            <a href="">Vestibular</a><br />
+            <a href="">Hobbies</a><br />
+            <a href="">Eletrônicos</a><br />
+            <a href="">Jogos</a><br />
+          </div>
+
+          <div class="conteudo-lateral">
+            <main>
+              <section id="form">
+                <h2>Contatos</h2>
+                <form id="contatos" name="contatos" method="post" action="">
+                  Email:<br />
+                  <input
+                    type="email"
+                    placeholder="Entre com seu e-mail aqui..."
+                  /><br />
+                  Departamento:<br />
+                  <select name="emails">
+                    <option selected>-- Escolha um departamento --</option>
+                    <optgroup label="E-mails Principais">
+                      <option value="f020dir@cps.sp.gov.br">Diretoria</option>
+                      <option>Secretaria</option>
+                    </optgroup>
+                    <optgroup label="Coordenadorias:">
+                      <option>Construção Naval</option>
+                      <option>Gestão da Tecnologia da Informação</option>
+                      <option>Gestão de Produção Industrial</option>
+                      <option>Logística</option>
+                      <option>Meio Ambiente e Recursos Hídricos</option>
+                      <option>Sistemas para Internet</option>
+                      <option>Sistemas Navais</option>
+                    </optgroup></select
+                  ><br />
+                  Assunto:<br />
+                  <input type="text" placeholder="Qual o assunto..." /><br />
+                  Mensagem:<br />
+                  <textarea
+                    rows="10"
+                    cols="50"
+                    name="conteudo"
+                    form="contatos"
+                    placeholder="Entre com sua mensagem aqui..."
+                  ></textarea>
+                  <br /><br />
+                  <input type="submit" value="Enviar" />
+                  <input type="reset" value="Limpar" />
+                </form>
+              </section>
+            </main>
+          </div>
+        </div>
+      </div>
+
+      <div id="rodape">
+        Copyright © 2023. by
+        <a
+          href="https://www.linkedin.com/in/wellington-luis-costa-ribeiro-51452018a/"
+          >Wellington Luis Costa Ribeiro</a
+        >
+      </div>
+    </div>
+  </body>
+</html>

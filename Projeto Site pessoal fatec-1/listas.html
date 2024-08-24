@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+
+    <style>
+        .text {
+            padding: 1px;
+
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.100);
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+            color: black;
+            background-color: rgba(0, 0, 0, 0.123);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            margin: 7px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body background="imagens/fundo.jpg">
+
+    <table border="0" width="960px" heigth="260px" align="center">
+
+        <tr>
+            <td><img src="imagens/listas.jpg" alt=""></td>
+        </tr>
+    </table>
+
+    <p align="center">
+        <a href="estrutura.html">Estrutura Básicas HTML</a>
+        <a href="paragrafos.html">Parágrafos</a>
+        <a href="cabecalhos.html">Cabeçalhos</a>
+        <a href="linhahorizontal.html">Linha Horizontal</a>
+        <a href="listas.html">Listas</a>
+        <a href="tabelas.html">Tabelas</a>
+
+    </p>
+
+    <p align="center" style="line-height:50px;">
+        <a href="formularios.html">Formulários</a>
+        <a href="imagens.html">Imagens</a>
+        <a href="video-e-audio.html">Video e Audio</a>
+        <a href="links.html">Links</a>
+    </p>
+
+    <div class="container">
+
+        <h2 style="margin: 25px;">Listas</h2>
+        <p style="margin: 25px;">
+
+
+        <p style="margin: 25px;">
+            Vamos entender como funcionam as listas (ordenadas,
+            desordenadas e de definições) no HTML. As listas são
+            muito importantes quando queremos listar alguns itens
+            no site e também para a criação de menu de navegação.
+
+        </p>
+
+        <h2 style="margin: 25px;">Listas Ordenadas</h2>
+
+        <p style="margin: 25px;">
+
+            As listas ordenadas, como o próprio nome já diz, os
+            itens serão listados de forma ordenada, seja por número,
+            letra, ou algarismos romanos. Uma lista ordenada começa
+            com a tag ol e seus respectivos itens da lista ficam dentro da tag li.
+            <br> Por padrão as listas ordenadas
+            são ordenadas por números, mas também iremos ver como
+            ordena-la por outros métodos. <br><br>
+
+            Vamos ao código:<br><br>
+            <img src="imagens/ordenada.jpg" alt=""><br><br>
+
+            Como havia dito, podemos ordenar também por a,b,c,d, etc. Caso queira que seja ordenada por letras
+            maiúsculas, basta em colocar ol type="a" .<br><br>
+
+            <img src="imagens/ordenadatipoa.jpg"><br><br>
+
+            Além desses dois tipos de ordenação, existem diversos tipos como Algarismos Romanos:<br><br>
+
+            <img src="imagens/romanos.jpg"><br><br>
+        </p>
+
+        <h1 style="margin: 25px;">Listas Desordenadas</h1>
+
+        <p style="margin: 25px;">
+
+            Já as Listas desordenadas são iniciadas com a tag UL e são representadas por pequenos
+            “bullets”. <br><br>vamos ao código:<br><br>
+
+            <img src="imagens/desordenada.jpg"><br><br><br>
+
+        Aqui temos exemplos que foram citados : 
+        <ol>
+            <li>primeiro item</li>
+            <li>segundo item
+                <!-- Observe que a tag de fechamento </li> não é colocada aqui! -->
+                <ul>
+                    <li>segundo item primeiro subitem</li>
+                    <li>segundo item segundo subitem</li>
+                    <li>segundo item terceiro subitem</li>
+                </ul>
+            </li> <!-- Aqui está a tag de fechamento </li> -->
+
+            <li>terceiro item</li>
+        </ol>
+
+        <ol type="I">
+            <li>Nome</li>
+            <li>Telefone</li>
+            <li>Casa</li>
+            <li>Estado</li>
+            </ol>
+
+            <ol type="a">
+                <li>Nome</li>
+                <li>Telefone</li>
+                <li>Endereço</li>
+                <li>País</li>
+                </ol>
+        </p>
+
+    </div>
+</body>
+
+</html>
