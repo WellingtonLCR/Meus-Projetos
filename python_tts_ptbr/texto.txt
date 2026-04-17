@@ -1,0 +1,83 @@
+Respostas corretas M1
+1 - Tráfego varia ao longo do dia (picos no horário comercial) - Elasticidades.
+2 - Gerenciamento e controle de recursos (IaaS, PaaS, SaaS):- IaaS proporciona mais controle sobre a infraestrutura do que PaaS.- SaaS exige menos gerenciamento de aplicativos do que PaaS.- No modelo SaaS, o cliente não precisa desenvolver o aplicativo.
+3 - Modelo com menor responsabilidade de gerenciamento - SaaS (Software como 
+Serviço).
+4 - Vantagem financeira da migração para Azure vs on-premises - Menor custo 
+inicial de hardware.
+5 - Picos repentinos com ajuste automático de capacidade - Elasticidade 
+automática.
+6 - Modelos sem responsabilidade pela segurança do SO:- PaaS (Plataforma como Serviço).- SaaS (Software como Serviço).
+7 - Aumento rápido de acessos com ajuste automático de capacidade - Elasticidade
+8 - Responsabilidades sempre do cliente na segurança:- Identidades e acessos.- Proteção de dados e criptografia em nível de aplicativo.
+9 - Alta disponibilidade mesmo com falha de datacenter inteiro - Zonas de 
+Disponibilidade.
+10 - Pico de tráfego muito acima do normal - Elasticidade.
+11 - Crescimento gradual e previsível de uso - Escalabilidade vertical.
+12 - Armazenamento de dados em locais geográficos específicos - Regiões do 
+Azure.
+13 - Desenvolver rápido sem gerenciar infraestrutura - PaaS (Plataforma como 
+Serviço).
+14 - Modelos com maior controle sobre infraestrutura física:- Nuvem privada.- On-premises.
+15 - Lidar com variações de tráfego:- Escalabilidade vertical (scale up).- Escalabilidade horizontal (scale out).- Elasticidade.
+16 - Redundância geográfica para alta disponibilidade:- Replicação de armazenamento com redundância geográfica (GRS).- Pares de Regiões.
+17 - Benefícios da nuvem híbrida:
+- Conformidade com requisitos de soberania de dados.- Capacidade de migrar gradualmente para a nuvem.- Uso de investimentos existentes em hardware on-premises.
+18 - Uso temporário de recursos (3 meses) - OpEx (Despesa Operacional).
+19 - Cópias em regiões diferentes para falhas/desastres - Recuperação de 
+desastre.
+20 - Pico de tráfego 20x maior (e-commerce) - Elasticidade.
+
+Respostas corretas M2:
+1 - Agrupar e gerenciar recursos - Grupos de recursos.
+2 - Microsserviços escaláveis e isolados - Contêineres.
+3 - Arquitetura de microsserviços com orquestração - AKS + Azure Container 
+Registry + RBAC.
+4 - Hospedar API com escalabilidade automática sem gerenciar servidor - Azure 
+App Service.
+5 - Armazenamento global com redundância - Conta de armazenamento com 
+redundância geográfica (GRS).
+6 - Processamento em tempo real com escalabilidade e baixo custo - Azure 
+Functions + Event Hubs + Storage + RBAC
+7 - SSO e gerenciamento de identidade - Microsoft Entra ID
+8 - Alta disponibilidade com falha de datacenter - Zonas de disponibilidade
+9 - Monitoramento e segurança contínua - Microsoft Defender para Nuvem
+10 - Sistema com segurança, LGPD e alta disponibilidade - App Service + Azure 
+SQL + RBAC + Acesso Condicional
+11 - Segurança Zero Trust com MFA e monitoramento - Entra ID + MFA + Acesso 
+Condicional + RBAC + Defender
+12 - Migração sem alteração (lift-and-shift) - Azure Virtual Machines
+13 - Separação de ambientes com controle e cobrança - Múltiplas assinaturas + 
+grupos de gerenciamento + grupos de recursos
+14 - Segurança sem confiança implícita - Zero Trust
+15 - Permissões granulares - RBAC
+16 - Sistema global com alta disponibilidade e redundância - VMs + Grupos de 
+disponibilidade + GRS
+17 - Escalar VMs automaticamente - VM Scale Sets
+18 - Portal com SSO, controle e performance - App Service + Entra ID + RBAC + 
+CDN
+19 - Controle de acesso baseado em contexto - Acesso Condicional
+20 - Segurança com verificação contínua - Zero Trust
+
+Respostas corretas M3:
+1- Proteção contra alteração acidental → Aplicar um Azure Lock do tipo ReadOnly 
+no recurso em questão.
+2 - Certificações e conformidade → Portal de Confiança do Serviço.
+3 - Falha em recurso específico → Azure Resource Health.
+4 - Alertas de CPU/indisponibilidade → Azure Monitor com Alertas.
+5 - Estimativa de custo prévia → Calculadora de Preços.
+6 - Infra como código padronizada → Azure Resource Manager com modelos ARM.
+7 - Governança + custos + padronização → Azure Policy, Azure Blueprints, Azure 
+Cost Management e Azure Tags.
+8 - Comparar custo on-premises vs nuvem → Calculadora de Custo Total de 
+Propriedade (TCO).
+9 - Evitar exclusão acidental → Implementar Bloqueios de Recurso.
+10 - Gerenciar multi-cloud/on-premises → Azure Arc.
+11 - Compliance automático (criptografia) → Azure Policy com definição 
+personalizada de compliance e correção automática.
+12 - Status global + alertas Azure → Azure Service Health com configuração de 
+alertas e escopos regionais.
+13 - Padronização de ambientes → Usar Azure Blueprints com definição de 
+artefatos e atribuição por escopo.
+14 - Forçar tag em recursos → Azure Policy.
+15 - Impedir exclusão/alteração → Bloqueios de Recursos (Locks).
